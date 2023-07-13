@@ -14,7 +14,7 @@ const ContactForm = () => {
       subject,
       message
     }
-    const res = await fetch(`http://localhost:3005/message`, {
+    const res = await fetch(`https://abid-afnan-server.vercel.app/message`, {
       method : "POST",
       headers : {
         'Content-Type' : 'application/json'
