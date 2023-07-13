@@ -1,0 +1,28 @@
+.co{
+    color: brown;
+}
+.allSides
+{
+    filter: blur(2px);
+    box-shadow:-5px -5px 30px 5px purple, 5px 5px 30px 5px violet;
+}
+.glass-blur {
+    background: rgba(255, 255, 255, 0.2); /* Adjust the background color and opacity as desired */
+    backdrop-filter: blur(8px); /* Adjust the blur radius as desired */
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3); /* Adjust the shadow properties as desired */
+  }
+.shado {
+    box-shadow: 5px 5px 0px 0px #bbbbbb;
+  }
+.text-shadow{
+    text-shadow: 4px 4px 1px rgb(94, 94, 94),
+          1px 1px 1px black,
+         1px -1px 1px black,
+        -1px -1px 1px black;
+}
+.icon:hover{
+  color: blueviolet;
+}
+.active{
+  color: blue;
+}
