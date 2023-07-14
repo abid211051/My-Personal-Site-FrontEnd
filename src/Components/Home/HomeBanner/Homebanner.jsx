@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import '/src/style.css';
 import Xlscreenbanner from './Xlscreenbanner';
 import Smallscreenbanner from './Smallscreenbanner';
-import { motion, useInView } from 'framer-motion'
+import { inView, motion, useInView } from 'framer-motion'
 
 const Homebanner = () => {
   const ref = useRef();
@@ -14,7 +14,7 @@ const Homebanner = () => {
         <motion.div
         ref={ref}
         initial={'hidden'}
-        animate={'visible'}
+        animate={isInview ? 'visible' : 'hidden'}
         variants={{
           visible : {opacity : 1, translateX : 0},
           hidden : {opacity : 0, translateX : 500}
