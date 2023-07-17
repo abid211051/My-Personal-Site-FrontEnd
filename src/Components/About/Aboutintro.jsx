@@ -1,11 +1,11 @@
 import React from 'react'
-import Info from './Info'
-
+import { motion, useInView } from 'framer-motion'
+import Info from './info/Info'
 const Aboutintro = () => {
     return (
         <>
             <div className='md:col-span-2 md:flex hidden justify-center items-center'>
-                <div className='flex justify-center items-center bg-white'>
+                <div className='flex justify-center items-center bg-gray-300'>
                     <img src="/Personal_img/myimgin.jpg" alt="" className='md:w-full w-[400px] p-2' />
                 </div>
             </div>
@@ -15,24 +15,23 @@ const Aboutintro = () => {
                     <h3 className='md:text-2xl text-xl font-bold font-jost sm:text-start text-center'>
                         A <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600'>Full Stack </span>
                         Web Developer From <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600'>
-                        Bangladesh</span>
+                            Bangladesh</span>
                     </h3>
 
                     <div className='md:col-span-2 md:hidden flex justify-center items-center py-4'>
-                        <div className='flex justify-center items-center bg-white'>
+                        <div className='flex justify-center items-center bg-gray-300'>
                             <img src="/Personal_img/myimgin.jpg" alt="" className='md:w-full w-[400px] p-2' />
                         </div>
                     </div>
 
-                    <p className='text-zinc-600 py-6'>I design and develop services for customers of all sizes,
+                    <p className='py-6'>I design and develop services for customers of all sizes,
                         specializing in creating stylish, modern websites,
                         web services and online stores.
                         My passion is to design digital user experiences through
                         the bold interface and meaningful interactions.
                         Check out my Portfolio
                     </p>
-
-                    <Info/>
+                    <Info />
                 </div>
             </div>
         </>

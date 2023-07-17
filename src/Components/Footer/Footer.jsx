@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='max-w-[100vw] min-h-[50px] py-2 bg-amber-400'>
-        <h1 className='font-jost text-xl font-semibold text-center'>Copywrite by - Abed</h1>
+      <div className='max-w-[100vw] min-h-[50px] py-2 n'>
+        <h1 className='font-jost text-xl font-semibold text-start'>© 2023 copyright all right reserved</h1>
       </div>
     </>
   )
