@@ -16,12 +16,6 @@ const Navpage = ({ navbutton }) => {
         transition-all duration-500
         rounded-s-xl flex justify-between`}
             >
-                <div className='absolute top-0 left-0 cursor-pointer'>
-                    <MdOutlineLightMode onClick={()=>changetoggle()} 
-                    className={`${toggle ? 'opacity-0':'opacity-100'} sm:text-4xl text-2xl absolute top-2 left-3`} />
-                    <MdOutlineDarkMode onClick={()=>changetoggle()} 
-                    className={`${toggle ? 'opacity-100':'opacity-0'} sm:text-4xl text-2xl absolute top-2 left-3`} />
-                </div>
                 <div className={`flex  justify-center items-center font-cabin pl-4
                     ${navbutton ? 'block' : 'hidden'}`}>
                     <div className='flex flex-col justify-center items-center sm:pr-10 pr-2'>

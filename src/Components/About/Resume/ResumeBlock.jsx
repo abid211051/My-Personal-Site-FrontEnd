@@ -54,7 +54,7 @@ const ResumeBlock = ({ item, i }) => {
                         }
                         <div className={`sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] ${toggle ? 'border-gray-400' : 'border-black'}
                          rounded-full border-[2px] flex justify-center items-center sm:text-2xl text-lg`}>
-                            {change ? '-' : '+'}
+                            {i===0 && firstone || i!==0 && change ? '-' : '+'}
                         </div>
                     </div>
                 </div>

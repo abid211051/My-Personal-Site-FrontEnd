@@ -9,7 +9,6 @@ import Footer from '../Footer/Footer';
 import ButtonContext, { ToggleContext } from '../ContextAPI/ButtonContext';
 const Home = () => {
   const {toggle} = useContext(ToggleContext)
-  console.log(toggle)
   return (
     <>
         <div 

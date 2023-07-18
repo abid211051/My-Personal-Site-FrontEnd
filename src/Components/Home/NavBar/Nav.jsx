@@ -19,7 +19,7 @@ const Nav = () => {
                     text-indigo-600`}
                     >Abid</h1>
                 </div>
-                <div className='fixed top-1 right-14 sm:scale-100 scale-0 duration-300 cursor-pointer'>
+                <div className='fixed top-1 sm:scale-100 sm:right-14 right-10 scale-80 duration-300 cursor-pointer'>
                     <MdOutlineLightMode onClick={()=>changetoggle()} 
                     className={`${toggle ? 'opacity-0':'opacity-100'} sm:text-4xl text-3xl absolute top-0 right-0`}/>
                     <MdOutlineDarkMode onClick={()=>changetoggle()} 
