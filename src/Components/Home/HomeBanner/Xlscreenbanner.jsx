@@ -72,7 +72,7 @@ const Xlscreenbanner = () => {
                             sequence={[
                                 ` Mern Stack Developer`,
                                 1000,
-                                ` ASP.Net Developer`,
+                                ` Asp.NET Developer`,
                                 1000
                             ]}
                             wrapper="span"
@@ -83,8 +83,8 @@ const Xlscreenbanner = () => {
                     </h4>
                     <div className='xl:block hidden'>
                         <div className=''>
-                            <p className='text-lg'>From France, Paris.
-                                I have rich experience in web design, also I am good at wordpress.
+                            <p className='text-lg'>From Feni, Bangladesh.
+                                I have a good knowledge in Web development, specially in MERN stack.
                                 I love to talk with you about our unique.
                             </p>
                             <ul className='flex justify-start mt-8 mb-16 gap-8'>
@@ -112,12 +112,13 @@ const Xlscreenbanner = () => {
                         </div>
                         <div>
                             <div className='flex  justify-start  items-center '>
-                                <motion.button
+                                <motion.a
+                                    href='Resume.pdf'
                                     whileTap={{ scale: 0.8 }}
                                     className={`font-jost font-bold border-[2px]
-                border-black rounded-full py-4 px-12 shado bg-white text-black`}>
+                border-black rounded-full py-4 px-12 shado bg-white text-black cursor-pointer`}>
                                     Download CV
-                                </motion.button>
+                                </motion.a>
                                 <div className={`ml-3 w-12 h-[2px] ${toggle ? 'bg-white' : 'bg-black'}`}>
 
                                 </div>

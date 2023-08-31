@@ -9,8 +9,8 @@ const Smallscreenbanner = () => {
     <>
       <div className='xl:hidden block sm:px-36 px-4 z-10'>
         <div className='mt-10'>
-          <p className='text-lg text-center'>From France, Paris.
-            I have rich experience in web design, also I am good at wordpress.
+          <p className='text-lg text-center'>From Feni, Bangladesh.
+                                I have a good knowledge in Web development, specially in MERN stack.
             I love to talk with you about our unique.
           </p>
           <ul className='flex justify-center mt-8 mb-16 gap-4'>
@@ -38,12 +38,13 @@ const Smallscreenbanner = () => {
         </div>
         <div>
           <div className='flex flex-col justify-center items-center gap-4'>
-            <motion.button
+            <motion.a
+              href='Resume.pdf'
               whileTap={{ scale: 0.8 }}
               className={`font-jost font-bold border-[2px]
-                border-black rounded-full py-4 px-12 shado bg-white text-black`}>
+                border-black rounded-full py-4 px-12 shado bg-white text-black cursor-pointer`}>
               Download CV
-            </motion.button>
+            </motion.a>
             <div className={`w-[2px] h-12 bg-black ${toggle ? 'bg-gray-300' : 'bg-black'}`}>
 
             </div>
