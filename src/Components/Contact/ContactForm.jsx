@@ -11,7 +11,7 @@ const ContactForm = () => {
   const handlemessage = async (e) => {
     e.preventDefault();
     setAlert(true)
-    setIsloadin('Message is sending ...')
+    setIsloadin('It will take a few minutes the first time. Please be patient...')
     const name = e.target.name.value;
     const email = e.target.email.value;
     const subject = e.target.subject.value;
