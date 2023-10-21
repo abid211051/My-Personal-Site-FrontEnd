@@ -10,7 +10,7 @@ const data = [
         path : "https://astounding-griffin-23a8b7.netlify.app/"
     },
     {
-        title : 'Personla Site',
+        title : 'Personal Site',
         img : "/Portfolio_img/portfolio.png",
         path : "https://endearing-meringue-a2db7a.netlify.app/"
     },
