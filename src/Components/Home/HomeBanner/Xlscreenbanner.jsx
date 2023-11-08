@@ -70,9 +70,9 @@ const Xlscreenbanner = () => {
                         <span> </span>
                         <TypeAnimation
                             sequence={[
-                                ` Mern Stack Developer`,
+                                ` Web Developer`,
                                 1000,
-                                ` Asp.NET Developer`,
+                                ` MERN stack Developer`,
                                 1000
                             ]}
                             wrapper="span"

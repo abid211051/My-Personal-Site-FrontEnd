@@ -19,6 +19,11 @@ const data = [
         img : "/Portfolio_img/weather.png",
         path : "https://thunderous-chaja-4f3d07.netlify.app/"
     },
+    {
+        title : 'AYT-Furniture',
+        img : "/Portfolio_img/ayt_furniture.png",
+        path : "https://final-project-server-rho.vercel.app/"
+    },
 ]
 
 export default data;
