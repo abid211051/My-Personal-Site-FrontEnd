@@ -1,34 +1,38 @@
 const expdata = [
-    {
-        block : 'exp',
-        name : 'Frontend Developer',
-        tagone : 'Languages',
-        skilloryearone : 'C, C++, JavaScript',
-        firstmessage : 'I have good knowledge in these Languages, including DSA',
-        tagtwo : 'Framework/Library',
-        skilloryeartwo : 'Tailwind, React',
-        secmessage : 'I can write code with these most popular Frameworks'
-    },
-    {
-        block : 'exp',
-        name : 'Backend Developer',
-        tagone : 'Languages',
-        skilloryearone: 'JavaScript, C#',
-        firstmessage : 'Currently, I can write Backend Code with JS.',
-        tagtwo : 'Framework/Library',
-        skilloryeartwo : 'NodeJS, ExpressJS, Mongoose',
-        secmessage : 'I can write server side code with ExpressJS. And Data handeling with MongoDB'
-    },
-    {
-        block : 'exp',
-        name : 'Full Stack Developer',
-        tagone : 'MERN Stack Developer',
-        skilloryearone : '2023 - Present',
-        firstmessage : 'I can create User friendly web application With React, Express and MongoDB',
-        tagtwo : '',
-        skilloryeartwo: '',
-        secmessage : ''
-    },
-]
+  {
+    block: "exp",
+    name: "Full Stack Developer",
+    tagone: "Framework/Library",
+    skilloryearone: "React & Nodejs Eco.",
+    firstmessage:
+      "I can create User friendly web application With NextJS, React Native, Nodejs, RestAPI, SQL & NOSQL Databases",
+    tagtwo: "",
+    skilloryeartwo: "",
+    secmessage: "",
+  },
+  {
+    block: "exp",
+    name: "Artificial Inteligence",
+    tagone: "Basics",
+    skilloryearone: " Supervised, Statistical Models",
+    firstmessage:
+      "In the era of AI, apps feel incomplete without ML and DL. I'm actively expanding my knowledge in this field to stay ahead and innovate.",
+    tagtwo: "Exploring",
+    skilloryeartwo: "CV, NLP, Ensembles Sol.",
+    secmessage:
+      "I'm exploring multimodal and ensemble solutions to blend CV and NLP for better unstructured data handling.",
+  },
+  {
+    block: "exp",
+    name: "Others",
+    tagone: "Tools/Cloud/UI",
+    skilloryearone: "Microsoft365, GCP, Figma",
+    firstmessage: "I have Basics Knowledge on this tools",
+    tagtwo: "Paper/Content Writting",
+    skilloryeartwo: "Latex(OverLeaf)",
+    secmessage:
+      "In my university life i got a chance to learn this tools also.",
+  },
+];
 
-export default expdata
+export default expdata;
