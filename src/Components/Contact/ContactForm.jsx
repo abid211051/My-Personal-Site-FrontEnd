@@ -34,7 +34,7 @@ const ContactForm = () => {
       });
       const data = await res.json();
       if (data) {
-        setIsloadin(data.message);
+        setIsloadin("Message Sent successFully");
         setTimeout(() => {
           setAlert(false);
         }, 3000);
