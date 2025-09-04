@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import ContactInfo from "./ContactInfo";
 import { motion } from "framer-motion";
 import { ToggleContext } from "../ContextAPI/ButtonContext";

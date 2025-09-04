@@ -1,5 +1,3 @@
-import React from "react";
-import { motion, useInView } from "framer-motion";
 import Info from "./info/Info";
 const Aboutintro = () => {
   return (

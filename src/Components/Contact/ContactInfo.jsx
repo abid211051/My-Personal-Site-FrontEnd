@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { BsMap } from "react-icons/bs";
 import { MdOutlineEventAvailable } from "react-icons/md";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";

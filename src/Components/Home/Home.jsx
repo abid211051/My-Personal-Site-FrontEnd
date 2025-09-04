@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext } from "react";
 import "/src/style.css";
 import Nav from "./NavBar/Nav";
 import Homebanner from "./HomeBanner/Homebanner";
@@ -6,7 +6,7 @@ import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
-import ButtonContext, { ToggleContext } from "../ContextAPI/ButtonContext";
+import { ToggleContext } from "../ContextAPI/ButtonContext";
 const Home = () => {
   const { toggle } = useContext(ToggleContext);
   return (

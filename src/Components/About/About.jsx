@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Aboutintro from "./Aboutintro";
 import "/src/style.css";
 import Education from "./Resume/Education/Education";

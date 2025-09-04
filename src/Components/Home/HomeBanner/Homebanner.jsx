@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "/src/style.css";
 import Xlscreenbanner from "./Xlscreenbanner";
 import Smallscreenbanner from "./Smallscreenbanner";
-import { inView, motion, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 const Homebanner = () => {
   const ref = useRef();
@@ -53,19 +53,19 @@ const Homebanner = () => {
           className="flex justify-center items-center z-10"
         >
           <div
-            className="overflow-hidden md:w-[695px] md:h-[700px]
-              w-[550px] relative rounded-full flex
+            className="overflow-hidden md:w-[600px] md:h-[600px]
+              w-[500px] relative rounded-full flex
               items-end justify-center transition-all duration-500"
           >
             <div
-              className="w-[90%] h-[85%]
+              className="w-[100%] h-[100%]
               absolute  -bottom-2 animate-bganim bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))]
                 from-rose-600 via-secondary to-red-800 rounded-full "
             ></div>
             <img
-              src="/Personal_img/Myremovebg.png"
+              src="/Personal_img/gemini.png"
               alt=""
-              className="w-[200%] z-10 object-cover"
+              className="h-[75%] z-10 object-cover"
             />
           </div>
         </motion.div>

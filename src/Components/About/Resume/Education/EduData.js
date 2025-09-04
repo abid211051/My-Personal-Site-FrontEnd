@@ -5,6 +5,8 @@ const edudata = [
     major: "BSC in CSE",
     year: "2021 - 2025",
     inistitute: "Internationl Islamic University, Chittagong",
+    grade: "3.70",
+    scale: 4,
   },
   {
     block: "edu",

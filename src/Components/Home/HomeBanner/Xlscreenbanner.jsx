@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useRef } from "react";
 import { Link } from "react-scroll";
 import {
   AiFillFacebook,
@@ -119,7 +119,10 @@ const Xlscreenbanner = () => {
                   </a>
                 </li>
                 <li className="group">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/in/abed-afnan"
+                    target="_blank"
+                  >
                     <AiOutlineLinkedin
                       size={30}
                       className="group-hover:text-secondary"
@@ -139,7 +142,7 @@ const Xlscreenbanner = () => {
             <div>
               <div className="flex  justify-start  items-center ">
                 <motion.a
-                  href="Resume.pdf"
+                  href="CV_Abed.pdf"
                   whileTap={{ scale: 0.8 }}
                   className={`font-jost font-bold border-[2px]
                 border-black rounded-full py-4 px-12 shado bg-white text-black cursor-pointer`}
@@ -153,7 +156,7 @@ const Xlscreenbanner = () => {
                 ></div>
                 <div className="ml-12 cursor-pointer border-b-[3px] border-blue-700 hover:border-y-yellow-600 duration-200 hover:text-secondary">
                   <Link to="skill" smooth={true} duration={500}>
-                    <h4 className="font-bold font-jost">My SKill</h4>
+                    <h4 className="font-bold font-jost">Skills & Education</h4>
                   </Link>
                 </div>
               </div>
